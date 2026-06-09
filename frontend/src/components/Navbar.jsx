@@ -1,9 +1,7 @@
-// frontend/src/components/NavBar.jsx
-
 import React, { useEffect, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 
-export default function NavBar({ user, onLogout }) {
+export default function Navbar({ user, onLogout }) {
   const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
 
