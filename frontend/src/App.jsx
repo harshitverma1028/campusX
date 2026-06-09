@@ -38,7 +38,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="app-root">
-        <NavBar user={user} onLogout={onLogout} />
+        <Navbar user={user} onLogout={onLogout} />
 
         <main className="container">
           <Routes>
